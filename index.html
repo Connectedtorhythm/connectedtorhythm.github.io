@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rhythm Malhotra · Connectedtorhythm</title>
+<meta name="description" content="Breath and ice coach and ceremony host in Assagao, Goa. I work on the systems, and on the body under the business.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rhythm Malhotra · Connectedtorhythm">
+<meta property="og:description" content="I work on the systems, and on the body under the business.">
+<!-- At publish: og:url and og:image need the page's full address, e.g. https://ADDRESS/share.jpg -->
+<link rel="preload" href="newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  @font-face {
+    font-family: Newsreader;
+    font-style: normal;
+    font-weight: 400 500;
+    font-display: swap;
+    src: url(newsreader-latin.woff2) format("woff2");
+  }
+  :root {
+    --limewash: #EEEDE6;
+    --genipa: #1F2A3A;
+    --soft: #55606E;      /* 5.45 to 1 on limewash: fine at 15px and up */
+    --rule: #D4D2C6;
+    --laterite: #8C3F2A;  /* white on it is 7.34 to 1 */
+    /* four type sizes */
+    --t-small: 15px; --t-body: 18px; --t-door: 26px; --t-head: clamp(32px, 8.6vw, 44px);
+    /* five spacing steps */
+    --s1: 8px; --s2: 16px; --s3: 24px; --s4: 40px; --s5: 64px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--limewash);
+    color: var(--genipa);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: var(--t-body);
+    line-height: 1.5;
+  }
+  main { max-width: 600px; margin: 0 auto; padding: var(--s3) 20px var(--s5); }
+  h1, h2 { font-family: Newsreader, Georgia, serif; font-weight: 400; margin: 0; text-wrap: balance; }
+  p { margin: 0; }
+
+  .top img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; background: var(--rule); }
+  .who { font-size: var(--t-small); color: var(--soft); margin-top: var(--s2); }
+  h1 { font-size: var(--t-head); line-height: 1.12; letter-spacing: -0.01em; margin-top: var(--s1); }
+
+  .door { margin-top: var(--s4); padding-top: var(--s3); border-top: 1px solid var(--rule); }
+  .door .kind { font-size: var(--t-small); color: var(--soft); }
+  .door h2 { font-size: var(--t-door); font-weight: 500; line-height: 1.2; margin-top: var(--s1); }
+  .door .what { margin-top: var(--s1); }
+  .btn {
+    display: flex; align-items: center; justify-content: center;
+    width: 100%; min-height: 52px;
+    margin-top: var(--s2); padding: var(--s1) var(--s2);
+    border-radius: 999px; border: 2px solid var(--laterite);
+    font-size: var(--t-body); font-weight: 600; text-align: center; text-decoration: none;
+  }
+  .btn.lead { background: var(--laterite); color: #FFFFFF; }
+  .btn.quiet { background: transparent; color: var(--laterite); }
+  .btn.lead:hover, .btn.lead:focus-visible { background: #74331F; border-color: #74331F; }
+  .btn.quiet:hover, .btn.quiet:focus-visible { background: rgba(140, 63, 42, 0.08); }
+  .btn:focus-visible, a:focus-visible { outline: 2px solid var(--genipa); outline-offset: 3px; }
+  .send { font-size: var(--t-small); color: var(--soft); margin-top: var(--s1); text-align: center; }
+  .send b { color: var(--genipa); font-weight: 600; }
+
+  .story { margin-top: var(--s5); }
+  .story h2 { font-size: var(--t-door); line-height: 1.2; }
+  .story p { margin-top: var(--s2); max-width: 34em; }
+  .story a { color: var(--genipa); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <!-- Placeholder photo until she picks one: frame A from photo-picker.jpg -->
+    <img src="rhythm.jpg" width="665" height="498" alt="Rhythm at home in Goa, resting her cheek on her hand">
+    <p class="who">Rhythm Malhotra, breath and ice coach and ceremony host, Assagao, Goa</p>
+    <h1>I work on the systems, and on the body under the business.</h1>
+  </header>
+
+  <section class="door">
+    <p class="kind">A free guide</p>
+    <h2>Keep your voice</h2>
+    <p class="what">It teaches any free AI chat to write the way you speak. You paste in three captions you are proud of, it studies how you talk, and your next caption comes out sounding like you.</p>
+    <a class="btn lead" href="https://ig.me/m/connectedtorhythm?ref=voice">Get the free voice guide</a>
+    <p class="send">My Instagram messages open. Send the word <b>VOICE</b> and the guide comes to you there.</p>
+  </section>
+
+  <section class="door">
+    <p class="kind">A free call, 30 minutes</p>
+    <h2>Put some of it down</h2>
+    <p class="what">The space check is a call with me. We start with one minute of breath together, then we look at your week by how heavy things feel and find the one thing that weighs most. You leave with a written summary and a few changes you can make on your own.</p>
+    <a class="btn quiet" href="https://ig.me/m/connectedtorhythm?ref=space">Book a free space check</a>
+    <p class="send">My Instagram messages open. Send the word <b>SPACE</b> and I send you the booking link.</p>
+  </section>
+
+  <section class="story">
+    <h2>Why I do both</h2>
+    <p>By day I build AI systems at Mindvalley, and I have been facilitating for four years.</p>
+    <p>A while ago I organised a weekend for 35 people, and everything that I was doing was manual. I wrote the scripts, recorded, edited and posted, I sent a copied message on WhatsApp and shared my UPI ID, and I took a note of everyone in Notes. It was about 100 hours of work across three weeks, with late nights, and my body felt irritated and angry.</p>
+    <p>Then one weekend I was sitting in my living room on this yellow couch that I usually sit on, and I shared a voice note, and when I read what came back I realized that it sounded like me. My body felt relaxed. So now I do both: I work with breath and ice, and I build what lets a woman put some of that weight down.</p>
+    <p>I share the breath, the ice and what I am building as I go, on Instagram at <a href="https://www.instagram.com/connectedtorhythm/">@connectedtorhythm</a>.</p>
+  </section>
+</main>
+</body>
+</html>
